@@ -88,7 +88,7 @@ export default class HomeScreen extends Component{
                       Word :{" "}
                     </Text>
                     <Text style={{fontSize:18 }}>
-                      {this.state.word}
+                      {}
                     </Text>
                   </View>
                   <View style={styles.detailsContainer}>
@@ -96,7 +96,7 @@ export default class HomeScreen extends Component{
                       Type :{" "}
                     </Text>
                     <Text style={{fontSize:18}}>
-                      {this.state.lexicalCategory}
+                      {}
                     </Text>
                   </View>
                   <View style={{flexDirection:'row',flexWrap: 'wrap'}}>
@@ -104,7 +104,7 @@ export default class HomeScreen extends Component{
                       Definition :{" "}
                     </Text>
                     <Text style={{ fontSize:18}}>
-                      {this.state.definition}
+                      {}
                     </Text>
                   </View>
                 </View>
