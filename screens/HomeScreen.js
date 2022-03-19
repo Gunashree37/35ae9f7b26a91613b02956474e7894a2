@@ -19,12 +19,12 @@ export default class HomeScreen extends Component{
     var text = text.toLowerCase()
     try{
       var word = dictionary[text]["word"]
-      var lexicalCategory = dictionary[text]["lexicalCategory"]
-      var definition = dictionary[text]["definition"]
+      var lexicalCategory = dictionary[text]["word"]
+      var definition = dictionary[text]["word"]
       this.setState({
         "word" : word,
-        "lexicalCategory" : lexicalCategory,
-        "definition" : definition
+        "lexicalCategory" : word,
+        "definition" : word
       })
     }
     catch(err){
